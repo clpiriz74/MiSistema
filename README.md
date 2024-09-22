@@ -26,12 +26,14 @@ makepkg -si
 #Instalar powerlevel10k de Romkatv
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 
 Arch Linux
 
 yay -S --noconfirm zsh-theme-powerlevel10k-git
+
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zsh
 
 
