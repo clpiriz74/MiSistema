@@ -5,7 +5,7 @@
 
 sudo pacman -S kitty
 sudo pacman -S zsh zsh-syntax-highlighting zsh-autosuggestions
-
+sudo pacman -S lsd bat
 
 #cambiar el shell por defecto tanto en usurario como en root
 
