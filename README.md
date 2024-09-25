@@ -36,5 +36,9 @@ yay -S --noconfirm zsh-theme-powerlevel10k-git
 
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zsh
 
+# para que puedas copiar de nvim con nchad al clipboard tienes que tener instalado el paquete xclip
+
+sudo pacman -S xclip
+
 
 
