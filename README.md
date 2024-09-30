@@ -43,6 +43,7 @@ sudo pacman -S xclip
 #para la maquina virtual en gnome boxes para que se pueda pasar del clipboar bidireccionalmente se tiene que intalar en la maquina virtual el siguiente comando
 
 sudo pacman -S spice-vdagent
+
 sudo systemctl enable --now spice-vdagent
 
 
