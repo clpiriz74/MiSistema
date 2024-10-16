@@ -44,7 +44,7 @@ sudo pacman -S xclip
 
 sudo pacman -S spice-vdagent
 
-sudo systemctl enable --now spice-vdagent
+sudo systemctl enable --now spice-vdagentd.service
 
 
 
