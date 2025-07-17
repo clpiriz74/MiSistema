@@ -46,5 +46,20 @@ sudo pacman -S spice-vdagent
 
 sudo systemctl enable --now spice-vdagentd.service
 
+# modificar el swapiness
+
+sudo nano /etc/sysctl.d/99-swappiness.conf
+
+vm.swappiness=10
+
+# Guardar y aplicar sin reiniciar:
+
+sudo sysctl -p /etc/sysctl.d/99-swappiness.conf
+
+# Verifica el valor actual:
+
+cat /proc/sys/vm/swappiness
+
+
 
 
