@@ -38,7 +38,9 @@ echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zs
 
 #para que puedas copiar de nvim con nchad al clipboard tienes que tener instalado el paquete xclip
 
-sudo pacman -S xclip
+sudo pacman -S xclip #para Xorg
+
+sudo pacman -S wl-clipboard  # para wayland
 
 # para la maquina virtual en gnome boxes para que se pueda pasar del clipboar bidireccionalmente se tiene que intalar en la maquina virtual el siguiente comando
 
