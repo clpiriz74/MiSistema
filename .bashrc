@@ -30,3 +30,4 @@ else
   PS1='\[\e[1;32m\][\u@\h \[\e[1;34m\]\w\[\e[0m\]\[\e[1;32m\]]\n$ \[\e[0m\]'
 fi
  
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
